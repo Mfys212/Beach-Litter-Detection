@@ -4,7 +4,8 @@
 Detection and classification of litter on the beach is carried out using the Real-Time Detection Transformer (RT-DETR) model. RT-DETR is a transformer-based object detection architecture designed for real-time data processing with high performance https://arxiv.org/abs/2304.08069, making it very suitable for application in environmental monitoring tasks like this.
 
 ## RT-DETR Architecture
-![arsitektur](rtdetr_overview_page-0001.jpg)
+![arsitektur](RT-DETR_Arsitektur.png)
+source: https://arxiv.org/abs/2304.08069 and https://github.com/ultralytics/ultralytics/tree/main/ultralytics/nn/modules
 
 ## Dataset
 The plastic litter dataset used is sourced from the following link https://universe.roboflow.com/monash-ventz/beach-waste-vqths with the following data usage license explanation https://creativecommons.org/licenses/by/4.0/.
@@ -39,4 +40,6 @@ There are 561 validation data without wood and clothes category for evaluation
 [1] Monash, "Beach Waste Dataset," *Roboflow Universe*. Roboflow, Oct. 2024. [Online]. Available: [https://universe.roboflow.com/monash-ventz/beach-waste-vqths](https://universe.roboflow.com/monash-ventz/beach-waste-vqths). Accessed: Nov. 19, 2024.
 
 [2] Y. Zhao, W. Lv, S. Xu, J. Wei, G. Wang, Q. Dang, Y. Liu, and J. Chen, "DETRs Beat YOLOs on Real-time Object Detection," *arXiv preprint*, 2024. [Online]. Available: [https://arxiv.org/abs/2304.08069](https://arxiv.org/abs/2304.08069).
+
+[3] Ultralytics, "Ultralytics Neural Network Modules," GitHub repository, 2024. [Online]. Available: https://github.com/ultralytics/ultralytics/tree/main/ultralytics/nn/modules. [Accessed: Dec. 1, 2024].
 
