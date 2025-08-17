@@ -5,7 +5,7 @@ Detection and classification of litter on the beach is carried out using the Rea
 
 ## RT-DETR Architecture
 ![arsitektur](Arsitektur_RT-DETR.png)
-reference: https://arxiv.org/abs/2304.08069 and https://github.com/ultralytics/ultralytics/tree/main/ultralytics/nn/modules
+reference: https://arxiv.org/abs/2304.08069 and https://github.com/ultralytics/ultralytics/tree/main/ultralytics
 
 ## Dataset
 The plastic litter dataset used is sourced from the following link https://universe.roboflow.com/monash-ventz/beach-waste-vqths with the following data usage license explanation https://creativecommons.org/licenses/by/4.0/.
@@ -30,13 +30,15 @@ There are 561 validation data without wood and clothes category for evaluation
 | **Rope**     | 155    | 205       | 0.709     | 0.512  | 0.619       | 0.409          |
 | **Styrofoam**| 195    | 418       | 0.904     | 0.765  | 0.861       | 0.697          |
 
-![cm](confusion_matrix.png)
 
 ## Inference
 ![inf](inference.png)
 ![inf](output1.png)
 
-## Reference
+https://github.com/user-attachments/assets/310d2d5b-4b5f-4052-8d4f-91454ea62e98
+
+
+## References
 [1] Monash, "Beach Waste Dataset," *Roboflow Universe*. Roboflow, Oct. 2024. [Online]. Available: [https://universe.roboflow.com/monash-ventz/beach-waste-vqths](https://universe.roboflow.com/monash-ventz/beach-waste-vqths). Accessed: Nov. 19, 2024.
 
 [2] Y. Zhao, W. Lv, S. Xu, J. Wei, G. Wang, Q. Dang, Y. Liu, and J. Chen, "DETRs Beat YOLOs on Real-time Object Detection," *arXiv preprint*, 2024. [Online]. Available: [https://arxiv.org/abs/2304.08069](https://arxiv.org/abs/2304.08069).
